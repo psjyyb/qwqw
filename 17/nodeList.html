@@ -13,5 +13,18 @@
 		<li>CSS</li>
 		<li>Javascript</li>
 	</ul>
+	<button id ="btn1">더하기 버튼</button>
+	<script>
+		function plus(a ,b){
+			return a+b;
+		}
+		let btn1=document.querySelector('#btn1');
+		btn1.addEventListener('click',function(){
+		let num1 = 4;
+		let num2 = 5;
+		let	a=plus(num1,num2);
+		console.log(a);
+		})
+	</script>
 </body>
 </html>

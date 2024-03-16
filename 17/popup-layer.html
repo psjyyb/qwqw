@@ -41,14 +41,23 @@
       <li>공지사항 내용</li>
       <li>공지사항 내용</li>
     </ul>    
-    <button>닫기</button>
+    <button id="btn1">닫기</button>
+   
   </div>
-
+      <button id="btn2">닫기2</button>
   <script>
-    var closeBttn = document.querySelector(".popup > button");
+    var closeBttn = document.querySelector(".popup > #btn1");
     closeBttn.addEventListener('click', function() {
-      document.querySelector(".popup").style.display = 'none';
+      console.log('123');
     });
+    var closeBttn1 = document.querySelector("#btn2");
+     closeBttn1.addEventListener('click',function(){ 
+      
+      location.href="quiz-1.html";
+      document.query
+    })
+
+    
   </script>
 </body>
 </html> 
